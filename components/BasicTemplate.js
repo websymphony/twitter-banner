@@ -56,7 +56,7 @@ export default function BasicTemplate(props) {
       </GridItem>
       <GridItem colSpan={6}>
         <Editable textAlign="right"
-          defaultValue="️👇 You know what do!"
+          defaultValue="️👇 You know what to do!"
           fontSize="4xl" color={props.textColor} p="10" textShadow="0 1px 3px rgb(0 0 0 / 10%), 0 1px 2px rgb(0 0 0 / 6%)">
           <EditablePreview />
           <EditableInput />
