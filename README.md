@@ -8,7 +8,7 @@ Front-end application for the [Free Twitter Banner](https://websymphony.net/twit
 
 - Free twitter banner and header creator allows you to create good looking banner in less than a minute.
 - Use the completely free twitter banner / twitter header tool.
-- No signup required.
+- No signup required needed at all.
 
 ## Sponsored by hipCV
 
