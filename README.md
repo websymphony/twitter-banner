@@ -12,7 +12,7 @@ Front-end application for the [Free Twitter Banner](https://websymphony.net/twit
 
 ## Sponsored by hipCV
 
-[![Free Resume Builder and Cover Letter Builder](public/hipcv.png "Free Resume Builder and Cover Letter Builder")](https://hipcv.com)
+[![Free Resume Builder and Cover Letter Builder](public/hipcv.png "Free Resume Builder and Cover Letter Builder")](https://hipcv.com?utm_source=github.com/websymphony/twitter-banner)
 
 ## Technologies used:
 
