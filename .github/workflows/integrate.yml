@@ -12,10 +12,10 @@ jobs:
       - run: yarn install --frozen-lockfile
       - run: yarn build
         env:
-          NEXT_PUBLIC_BASE_PATH: /paraphrasing-tool
+          NEXT_PUBLIC_BASE_PATH: /twitter-banner
       - run: yarn run export
         env:
-          NEXT_PUBLIC_BASE_PATH: /paraphrasing-tool
+          NEXT_PUBLIC_BASE_PATH: /twitter-banner
       - run: touch ./out/.nojekyll
       - uses: JamesIves/github-pages-deploy-action@3.5.9
         env:
