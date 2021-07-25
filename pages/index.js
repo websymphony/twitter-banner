@@ -1,6 +1,6 @@
 import { Box, Button, Flex, FormControl, FormHelperText, FormLabel, Grid, Input, InputGroup, InputLeftAddon, Radio, RadioGroup, Select, Stack, Switch } from "@chakra-ui/react";
 import download from 'downloadjs';
-import FontPicker from "font-picker-react";
+// import FontPicker from "font-picker-react";
 import { toPng } from 'html-to-image';
 import Head from 'next/head';
 import { useEffect, useState } from 'react';
@@ -219,14 +219,14 @@ export default function Home() {
                 <FormLabel>Text color</FormLabel>
                 <ChromePicker color={textColor} onChangeComplete={color => setTextColor(color)} disableAlpha={true} />
               </FormControl>
-              <FormControl id="fontFamily">
+              {/* <FormControl id="fontFamily">
                 <FormLabel>Font</FormLabel>
                 <FontPicker
                   apiKey="AIzaSyAktZt635ns6mCvdicuLS1L_TsWWHP1pkw"
                   activeFontFamily={fontFamily}
                   onChange={(nextFont) => setFontFamily(nextFont.family)}
                 />
-              </FormControl>
+               </FormControl> */}
             </Flex>
             <FormControl id="removeBorder" mt="4">
               <FormLabel>Text border</FormLabel>
